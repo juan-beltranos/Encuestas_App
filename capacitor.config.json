@@ -1,0 +1,13 @@
+{
+  "appId": "com.sosadiazbros.federacionluteranamundial",
+  "appName": "Federación Luterana Mundial",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

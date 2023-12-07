@@ -1,0 +1,98 @@
+/* Progress buttons */
+
+.title {
+  font-size: 8px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.dots li::after {
+  width: 50px !important;
+  left: -28% !important;
+  top: 10px !important;
+}
+
+.current-button::before {
+  background-color: #1ab394 !important;
+  border: solid 3px white !important;
+  padding: 2px !important;
+  filter: grayscale(0) !important;
+  opacity: 1 !important;
+}
+
+.dots li::before {
+  width: 15px !important;
+  height: 15px !important;
+  /* background-color: #cbcbcb !important; */
+  border: solid 5px white !important;
+  transition: 0.3s ease-out all;
+  filter: grayscale(1);
+  opacity: 0.6;
+}
+
+.passed::after {
+  background-color: white !important;
+}
+
+.passed::before {
+  background-color: #1ab394 !important;
+  filter: grayscale(0) !important;
+  opacity: 0.8 !important;
+}
+
+.dots li {
+  width: 90px !important;
+}
+
+.dots {
+  padding: 0 !important;
+}
+
+.left-arrow,
+.right-arrow {
+  filter: invert(1) !important;
+}
+
+/* Progress bar */
+
+.progress {
+  /* color: white !important; */
+  margin: 0 20px 60px !important;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 0 0 1px white;
+}
+
+/* Page title */
+
+.container {
+  padding: 0 !important;
+  background-color: #59a1d8 !important;
+  border: none !important;
+}
+
+.buttons-container {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.root {
+  border-radius: 30px 30px 0 0 !important;
+  background: white !important;
+  padding: 30px 15px !important;
+}
+
+.nav {
+  background-color: white;
+  padding: 20px !important;
+}
+
+.completed {
+  text-align: center;
+  padding: 5em 1em !important;
+  background: white !important;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: -1px -1px 7px 0px #0000002e;
+  position: absolute;
+}
